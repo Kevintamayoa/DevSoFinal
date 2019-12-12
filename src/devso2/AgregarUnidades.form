@@ -24,19 +24,14 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="1125" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -52,157 +47,191 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel2" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel4" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel3" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel6" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel1" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel12" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel5" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel7" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jLabel13" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <Component id="cmbModelo1" linkSize="3" max="32767" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtAnticipo" min="-2" pref="100" max="-2" attributes="0"/>
-                                      <Component id="txtFinanciamiento" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
-                                      <Component id="txtFinanciamiento1" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtFinanciamiento2" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                                      <Component id="txtFinanciamiento3" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                                      <Component id="txtAnticipo1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Component id="cmbModelo" linkSize="3" alignment="0" pref="183" max="32767" attributes="0"/>
-                              <Component id="spnNumEtapa" linkSize="3" alignment="0" pref="74" max="32767" attributes="0"/>
-                              <Component id="txtPVM2" linkSize="3" alignment="0" pref="133" max="32767" attributes="0"/>
-                              <Component id="spnNumM2" linkSize="3" alignment="0" pref="81" max="32767" attributes="0"/>
-                              <Component id="txtPrecioVenta" linkSize="3" alignment="0" pref="133" max="32767" attributes="0"/>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel11" linkSize="4" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                      <Component id="jLabel9" linkSize="4" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" linkSize="4" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                      <Component id="jLabel10" linkSize="4" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                      <Component id="jLabel14" linkSize="4" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                      <Component id="jLabel15" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="dtcVenta1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="dtcAnticipo" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="dtcFinanciamiento" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtPrecioVenta1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jComboBox1" max="32767" attributes="0"/>
-                                      <Component id="dtcVenta" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="87" pref="87" max="-2" attributes="0"/>
-                              </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace pref="117" max="32767" attributes="0"/>
-                                  <Component id="jButton1" min="-2" pref="267" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel5" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              <Component id="jLabel7" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              <Component id="jLabel13" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                              <Component id="jLabel12" linkSize="1" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel2" linkSize="1" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                                              <Component id="jLabel4" linkSize="1" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                                              <Component id="jLabel3" linkSize="1" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" linkSize="1" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                                              <Component id="jLabel6" linkSize="1" min="-2" pref="220" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="cmbModelo1" linkSize="3" min="-2" pref="250" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="txtFinanciamiento" alignment="0" pref="84" max="32767" attributes="0"/>
+                                              <Component id="txtAnticipo" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtFinanciamiento1" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtAnticipo1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                              <Component id="txtFinanciamiento2" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                              <Component id="txtFinanciamiento3" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="262" pref="262" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="spnNumEtapa" linkSize="3" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                                      <Component id="cmbModelo" linkSize="3" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                                      <Component id="spnNumM2" linkSize="3" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                           </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel8" linkSize="4" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                              <Component id="jLabel10" linkSize="4" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                              <Component id="jLabel14" linkSize="4" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                              <Component id="jLabel15" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="dtcAnticipo" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                              <Component id="dtcFinanciamiento" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                              <Component id="dtcVenta1" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                              <Component id="txtPrecioVenta1" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="267" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace min="134" pref="134" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="584" pref="584" max="-2" attributes="0"/>
+                          <Component id="jLabel9" linkSize="4" min="-2" pref="220" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="584" pref="584" max="-2" attributes="0"/>
+                          <Component id="jLabel11" linkSize="4" min="-2" pref="220" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="262" pref="262" max="-2" attributes="0"/>
+                          <Component id="txtPrecioVenta" linkSize="3" min="-2" pref="250" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="262" pref="262" max="-2" attributes="0"/>
+                          <Component id="txtPVM2" linkSize="3" min="-2" pref="250" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="822" pref="822" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="dtcVenta" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                              <Component id="jComboBox1" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel16" alignment="0" min="-2" pref="1125" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel16" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="dtcVenta" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel9" alignment="0" max="-2" attributes="0"/>
-                      <Component id="spnNumEtapa" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel1" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="dtcVenta" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="spnNumEtapa" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jComboBox1" alignment="1" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel11" alignment="1" max="-2" attributes="0"/>
-                      <Component id="cmbModelo" alignment="1" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel2" linkSize="2" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbModelo" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel2" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel11" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
+                  <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtPrecioVenta1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                          <Component id="jButton1" min="-2" pref="71" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel12" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cmbModelo1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel8" alignment="0" max="-2" attributes="0"/>
-                              <Component id="dtcAnticipo" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtAnticipo1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtAnticipo" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel5" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel10" alignment="0" max="-2" attributes="0"/>
-                              <Component id="dtcFinanciamiento" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtFinanciamiento2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtFinanciamiento" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel7" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="dtcVenta1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel14" alignment="0" max="-2" attributes="0"/>
-                              <Component id="txtFinanciamiento3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtFinanciamiento1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel13" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
-                      </Group>
                       <Group type="102" attributes="0">
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="spnNumM2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel4" linkSize="2" alignment="0" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="txtPrecioVenta" alignment="2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel3" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel6" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtPVM2" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="txtPVM2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="222" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel12" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cmbModelo1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtPrecioVenta1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="71" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel5" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="dtcAnticipo" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtAnticipo1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtAnticipo" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel10" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtFinanciamiento2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtFinanciamiento" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel7" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="dtcFinanciamiento" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel13" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFinanciamiento1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtFinanciamiento3" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel14" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="dtcVenta1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="112" pref="112" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel4" linkSize="2" alignment="3" max="-2" attributes="0"/>
-                      <Component id="spnNumM2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="2" attributes="0">
-                      <Component id="txtPrecioVenta" alignment="2" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel3" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="263" max="32767" attributes="0"/>
+                  <EmptySpace min="91" pref="91" max="-2" attributes="0"/>
+                  <Component id="jLabel1" linkSize="2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="516" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -373,9 +402,17 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="spnNumEtapa">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="cmbModelo">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
                 <StringItem index="0" value="Item 1"/>
@@ -390,23 +427,66 @@
           </AuxValues>
         </Component>
         <Component class="javax.swing.JSpinner" name="spnNumM2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtPVM2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPVM2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtPrecioVenta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="com.toedter.calendar.JDateChooser" name="dtcFinanciamiento">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="com.toedter.calendar.JDateChooser" name="dtcVenta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtFinanciamiento">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFinanciamientoActionPerformed"/>
           </Events>
         </Component>
         <Component class="com.toedter.calendar.JDateChooser" name="dtcAnticipo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtAnticipo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAnticipoActionPerformed"/>
           </Events>
@@ -452,13 +532,16 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="11"/>
-            <Property name="text" type="java.lang.String" value="Tipo de financiamiento"/>
+            <Property name="text" type="java.lang.String" value="Tipo de financiamiento:"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
             <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="cmbModelo1">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
                 <StringItem index="0" value="Item 1"/>
@@ -473,6 +556,11 @@
           </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="txtFinanciamiento1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFinanciamiento1ActionPerformed"/>
           </Events>
@@ -510,9 +598,17 @@
           </Properties>
         </Component>
         <Component class="com.toedter.calendar.JDateChooser" name="dtcVenta1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="jComboBox1">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
                 <StringItem index="0" value="Item 1"/>
@@ -527,21 +623,41 @@
           </AuxValues>
         </Component>
         <Component class="javax.swing.JTextField" name="txtAnticipo1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAnticipo1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtFinanciamiento2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFinanciamiento2ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtFinanciamiento3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFinanciamiento3ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtPrecioVenta1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="18" style="0"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel15">
           <Properties>
@@ -558,6 +674,18 @@
             <Property name="text" type="java.lang.String" value="Comisi&#xf3;n de venta:"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
             <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="23" green="23" red="23" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Malgun Gothic" size="24" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Agregar Inversionista"/>
           </Properties>
         </Component>
       </SubComponents>

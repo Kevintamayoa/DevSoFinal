@@ -1204,7 +1204,6 @@ public class Conexion {
        
     }
        public void AddToRequest(int request,Inventory ob2) throws SQLException { 
-    
          String sql = "INSERT INTO inventory VALUES(null,"+ob2.Type_Id+"," + request+"," + ob2.Qty+","
               +ob2.Cost+",0);";
             PreparedStatement st3 = con.prepareStatement(sql);
@@ -2076,7 +2075,7 @@ PreparedStatement st4 = con.prepareStatement(sql4);
                 String BillsNumber = rs.getString(7);
                 double Amount = rs.getDouble(8);
                 int User_Id = rs.getInt(9);
-                //list.add(new Expense(Id, Date, ExpensesCategory_Id, Concept, Account_Id,
+     //           list.add(new Expense(Id, Date, ExpensesCategory_Id, Concept, Account_Id,
                         //Bills, BillsNumber, Amount, User_Id));
             }
         } catch (SQLException ex) {

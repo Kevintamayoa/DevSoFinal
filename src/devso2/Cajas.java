@@ -86,8 +86,10 @@ double inicial;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Saldo en cajas");
+        setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(47, 51, 66));
+        jPanel3.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
         jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
                 jPanel3MouseReleased(evt);
@@ -95,23 +97,20 @@ double inicial;
         });
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("InaiMathi", 1, 20)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("InaiMathi", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Saldo en cajas");
 
-        txtBuscar.setFont(new java.awt.Font("InaiMathi", 0, 14)); // NOI18N
-        txtBuscar.setForeground(new java.awt.Color(255, 255, 255));
+        txtBuscar.setFont(new java.awt.Font("InaiMathi", 0, 18)); // NOI18N
         txtBuscar.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         txtBuscar.setText("Mes");
 
         cbxFiltro.setBackground(new java.awt.Color(255, 255, 255));
-        cbxFiltro.setFont(new java.awt.Font("InaiMathi", 0, 14)); // NOI18N
+        cbxFiltro.setFont(new java.awt.Font("InaiMathi", 0, 18)); // NOI18N
         cbxFiltro.setForeground(new java.awt.Color(51, 51, 51));
         cbxFiltro.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2019", "2020" }));
 
-        jLabel4.setFont(new java.awt.Font("InaiMathi", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("InaiMathi", 0, 18)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel4.setText("Año");
 
@@ -150,13 +149,12 @@ double inicial;
         jScrollPane1.setViewportView(table);
 
         cbxFiltro1.setBackground(new java.awt.Color(255, 255, 255));
-        cbxFiltro1.setFont(new java.awt.Font("InaiMathi", 0, 14)); // NOI18N
+        cbxFiltro1.setFont(new java.awt.Font("InaiMathi", 0, 18)); // NOI18N
         cbxFiltro1.setForeground(new java.awt.Color(51, 51, 51));
         cbxFiltro1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" }));
 
         jButton1.setBackground(new java.awt.Color(123, 163, 186));
-        jButton1.setFont(new java.awt.Font("InaiMathi", 0, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setFont(new java.awt.Font("InaiMathi", 0, 18)); // NOI18N
         jButton1.setText("Cargar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,12 +173,12 @@ double inicial;
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 706, Short.MAX_VALUE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(cbxFiltro1, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(31, 31, 31)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(16, 16, 16)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(14, 14, 14)
                         .addComponent(cbxFiltro, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jButton1)
@@ -195,10 +193,11 @@ double inicial;
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                         .addComponent(txtBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cbxFiltro, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(cbxFiltro1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cbxFiltro, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 351, Short.MAX_VALUE)
                 .addContainerGap())

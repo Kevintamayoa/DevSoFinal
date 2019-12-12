@@ -215,6 +215,21 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         btnCrearFinanciamiento = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tableSembrado = new javax.swing.JTable();
+        pnlCatalogo = new javax.swing.JPanel();
+        jSeparator4 = new javax.swing.JSeparator();
+        jSeparator5 = new javax.swing.JSeparator();
+        jLabel18 = new javax.swing.JLabel();
+        btnEgresos = new javax.swing.JButton();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        tableIngresos = new javax.swing.JTable();
+        btnIngresos = new javax.swing.JButton();
+        jLabel20 = new javax.swing.JLabel();
+        btnCuentas = new javax.swing.JButton();
+        jLabel21 = new javax.swing.JLabel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        tableEgresos = new javax.swing.JTable();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        tableCuentas = new javax.swing.JTable();
         pnlCredito = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -260,21 +275,6 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         jLabel26 = new javax.swing.JLabel();
         dtFechaInicio = new com.toedter.calendar.JDateChooser();
         jSpinner1 = new javax.swing.JSpinner();
-        pnlCatalogo = new javax.swing.JPanel();
-        jSeparator4 = new javax.swing.JSeparator();
-        jSeparator5 = new javax.swing.JSeparator();
-        jLabel18 = new javax.swing.JLabel();
-        btnEgresos = new javax.swing.JButton();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        tableIngresos = new javax.swing.JTable();
-        btnIngresos = new javax.swing.JButton();
-        jLabel20 = new javax.swing.JLabel();
-        btnCuentas = new javax.swing.JButton();
-        jLabel21 = new javax.swing.JLabel();
-        jScrollPane10 = new javax.swing.JScrollPane();
-        tableEgresos = new javax.swing.JTable();
-        jScrollPane11 = new javax.swing.JScrollPane();
-        tableCuentas = new javax.swing.JTable();
         jPanel2 = new javax.swing.JPanel();
         btnInfoGeneral = new javax.swing.JButton();
         btnCredito = new javax.swing.JButton();
@@ -309,60 +309,60 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         pnlInfo.setBackground(new java.awt.Color(47, 51, 66));
 
         jLabel1.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel1.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel1.setText("Nombre del proyecto:");
 
         jLabel2.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel2.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel2.setText("Tipo de desarrollo:");
 
         jLabel3.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel3.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel3.setText("Descripción:");
 
         jLabel4.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel4.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel4.setText("Duración(meses):");
 
         jLabel5.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel5.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel5.setText("Fecha de inicio:");
 
         jLabel6.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel6.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel6.setText("Project Manager:");
 
         jLabel7.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel7.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Administradores:");
 
         jLabel8.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel8.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel8.setText("Cargar Ticket:");
 
         jLabel9.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel9.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel9.setText("Cargar Compra-venta:");
 
         jLabel10.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel10.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel10.setText("Comisión(%):");
@@ -443,7 +443,7 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         }
 
         jLabel11.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel11.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel11.setText("Ubicación:");
@@ -520,18 +520,6 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
                                         .addComponent(btnAgregarProjectManager, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(pnlInfoLayout.createSequentialGroup()
-                                        .addGap(48, 48, 48)
-                                        .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                            .addGroup(pnlInfoLayout.createSequentialGroup()
-                                                .addComponent(jLabel7)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(pnlInfoLayout.createSequentialGroup()
-                                                        .addGap(6, 6, 6)
-                                                        .addComponent(btnAgregarAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                    .addComponent(cmbAdministradores, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                    .addGroup(pnlInfoLayout.createSequentialGroup()
                                         .addGap(18, 18, 18)
                                         .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -547,10 +535,22 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
                                                 .addGap(18, 18, 18)
                                                 .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                                     .addComponent(btnCargarTicket, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(btnCargarCompraVenta, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE))))))
-                                .addGap(0, 93, Short.MAX_VALUE))))
+                                                    .addComponent(btnCargarCompraVenta, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)))))
+                                    .addGroup(pnlInfoLayout.createSequentialGroup()
+                                        .addGap(48, 48, 48)
+                                        .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                            .addGroup(pnlInfoLayout.createSequentialGroup()
+                                                .addComponent(jLabel7)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addGroup(pnlInfoLayout.createSequentialGroup()
+                                                        .addGap(6, 6, 6)
+                                                        .addComponent(btnAgregarAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                    .addComponent(cmbAdministradores, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                .addGap(0, 238, Short.MAX_VALUE))))
                     .addGroup(pnlInfoLayout.createSequentialGroup()
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 396, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 468, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))))
         );
 
@@ -614,13 +614,11 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
                     .addComponent(btnAgregarProjectManager)
                     .addComponent(btnAgregarAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(pnlInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 219, Short.MAX_VALUE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        pnlInfoLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jScrollPane3, jScrollPane4});
 
         pnlInfoLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnAgregarAdmin, btnAgregarProjectManager});
 
@@ -757,446 +755,9 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
             .addGroup(pnlSembradoLayout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 553, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 608, Short.MAX_VALUE)
+                .addGap(0, 0, 0))
         );
-
-        pnlCredito.setBackground(new java.awt.Color(47, 51, 66));
-        pnlCredito.setPreferredSize(new java.awt.Dimension(1129, 708));
-
-        jLabel12.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel12.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel12.setText("Inversionista:");
-
-        jLabel13.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel13.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel13.setText("Monto de inv:");
-
-        jLabel14.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel14.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel14.setText("Monto de dev:");
-
-        cmbInversionista.setEditable(true);
-        cmbInversionista.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cmbInversionistaActionPerformed(evt);
-            }
-        });
-
-        btnAgregarInversionista.setText("Añadir");
-        btnAgregarInversionista.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAgregarInversionistaActionPerformed(evt);
-            }
-        });
-
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones"));
-        jPanel4.setForeground(new java.awt.Color(127, 127, 127));
-        jPanel4.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
-
-        buttonGroup1.add(rbPorcentajeInversion);
-        rbPorcentajeInversion.setForeground(new java.awt.Color(255, 255, 255));
-        rbPorcentajeInversion.setText("Porcentaje(%)");
-
-        buttonGroup1.add(rbMontoInversion);
-        rbMontoInversion.setForeground(new java.awt.Color(255, 255, 255));
-        rbMontoInversion.setText("Monto($)");
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addComponent(rbPorcentajeInversion)
-                .addGap(29, 29, 29)
-                .addComponent(rbMontoInversion))
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                .addComponent(rbPorcentajeInversion)
-                .addComponent(rbMontoInversion))
-        );
-
-        btnAddInversion.setBackground(new java.awt.Color(123, 163, 186));
-        btnAddInversion.setText("Agregar");
-        btnAddInversion.setRequestFocusEnabled(false);
-
-        tableInversiones.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Inversionista", "Monto de inversiones", "Monto de devolución"
-            }
-        ) {
-            boolean[] canEdit = new boolean [] {
-                false, true, true, true
-            };
-
-            public boolean isCellEditable(int rowIndex, int columnIndex) {
-                return canEdit [columnIndex];
-            }
-        });
-        tableInversiones.setPreferredSize(new java.awt.Dimension(200, 200));
-        jScrollPane5.setViewportView(tableInversiones);
-        if (tableInversiones.getColumnModel().getColumnCount() > 0) {
-            tableInversiones.getColumnModel().getColumn(0).setMinWidth(0);
-            tableInversiones.getColumnModel().getColumn(0).setPreferredWidth(0);
-            tableInversiones.getColumnModel().getColumn(0).setMaxWidth(0);
-        }
-
-        jLabel15.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel15.setFont(new java.awt.Font("Malgun Gothic", 0, 24)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("Inversionistas");
-
-        jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
-
-        btnSalvarCredito.setBackground(new java.awt.Color(123, 163, 186));
-        btnSalvarCredito.setText("Agregar");
-        btnSalvarCredito.setRequestFocusEnabled(false);
-
-        txtMontoDevolucionCredito.setBackground(new java.awt.Color(187, 187, 187));
-        txtMontoDevolucionCredito.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        txtMontoDevolucionCredito.setForeground(new java.awt.Color(255, 255, 255));
-        txtMontoDevolucionCredito.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        txtMontoDevolucionCredito.setText("Fecha de inicio:");
-
-        jLabel19.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel19.setFont(new java.awt.Font("Malgun Gothic", 0, 24)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setText("Créditos");
-
-        jLabel17.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel17.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel17.setText("Monto total:");
-
-        tableCredito.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Inversionista", "Monto de inversiones", "Monto de devolución"
-            }
-        ) {
-            boolean[] canEdit = new boolean [] {
-                false, true, true, true
-            };
-
-            public boolean isCellEditable(int rowIndex, int columnIndex) {
-                return canEdit [columnIndex];
-            }
-        });
-        tableCredito.setPreferredSize(new java.awt.Dimension(200, 200));
-        jScrollPane6.setViewportView(tableCredito);
-        if (tableCredito.getColumnModel().getColumnCount() > 0) {
-            tableCredito.getColumnModel().getColumn(0).setMinWidth(0);
-            tableCredito.getColumnModel().getColumn(0).setPreferredWidth(0);
-            tableCredito.getColumnModel().getColumn(0).setMaxWidth(0);
-        }
-
-        jLabel16.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel16.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel16.setText("Crédito:");
-
-        jLabel22.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel22.setFont(new java.awt.Font("Malgun Gothic", 0, 24)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setText("Prestamista");
-
-        jLabel23.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel23.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel23.setText("Prestamista:");
-
-        jLabel24.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel24.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel24.setText("Monto de préstamo:");
-
-        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones"));
-        jPanel8.setForeground(new java.awt.Color(127, 127, 127));
-
-        buttonGroup2.add(rbPorcentajePrestamo);
-        rbPorcentajePrestamo.setForeground(new java.awt.Color(255, 255, 255));
-        rbPorcentajePrestamo.setText("Porcentaje(%)");
-
-        buttonGroup2.add(rbMontoPrestamo);
-        rbMontoPrestamo.setForeground(new java.awt.Color(255, 255, 255));
-        rbMontoPrestamo.setText("Monto($)");
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(rbPorcentajePrestamo)
-                .addGap(29, 29, 29)
-                .addComponent(rbMontoPrestamo))
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                .addComponent(rbPorcentajePrestamo)
-                .addComponent(rbMontoPrestamo))
-        );
-
-        txtMontoDevolucionCredito1.setBackground(new java.awt.Color(187, 187, 187));
-        txtMontoDevolucionCredito1.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        txtMontoDevolucionCredito1.setForeground(new java.awt.Color(255, 255, 255));
-        txtMontoDevolucionCredito1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        txtMontoDevolucionCredito1.setText("Monto de dev:");
-
-        btnSalvarPrestamo.setBackground(new java.awt.Color(123, 163, 186));
-        btnSalvarPrestamo.setText("Agregar");
-        btnSalvarPrestamo.setRequestFocusEnabled(false);
-
-        tablePrestamistas.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Prestamista", "Monto de préstamo", "Monto de devolución"
-            }
-        ) {
-            boolean[] canEdit = new boolean [] {
-                false, true, true, true
-            };
-
-            public boolean isCellEditable(int rowIndex, int columnIndex) {
-                return canEdit [columnIndex];
-            }
-        });
-        tablePrestamistas.setPreferredSize(new java.awt.Dimension(200, 200));
-        jScrollPane7.setViewportView(tablePrestamistas);
-        if (tablePrestamistas.getColumnModel().getColumnCount() > 0) {
-            tablePrestamistas.getColumnModel().getColumn(0).setMinWidth(0);
-            tablePrestamistas.getColumnModel().getColumn(0).setPreferredWidth(0);
-            tablePrestamistas.getColumnModel().getColumn(0).setMaxWidth(0);
-        }
-
-        jSeparator2.setOrientation(javax.swing.SwingConstants.VERTICAL);
-
-        cmxPrestamistas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " " }));
-        cmxPrestamistas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cmxPrestamistasActionPerformed(evt);
-            }
-        });
-
-        btnAgregarPrestamista.setText("Añadir");
-        btnAgregarPrestamista.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAgregarPrestamistaActionPerformed(evt);
-            }
-        });
-
-        jLabel25.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel25.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel25.setText("tasa de interés:");
-
-        jLabel26.setBackground(new java.awt.Color(187, 187, 187));
-        jLabel26.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel26.setText("meses de financiamiento:");
-
-        javax.swing.GroupLayout pnlCreditoLayout = new javax.swing.GroupLayout(pnlCredito);
-        pnlCredito.setLayout(pnlCreditoLayout);
-        pnlCreditoLayout.setHorizontalGroup(
-            pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                .addGap(50, 50, 50)
-                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                        .addGap(60, 60, 60)
-                                        .addComponent(jLabel15))
-                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(txtMontoDevolucionInversionistas, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(txtMontoInversiones, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(cmbInversionista, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(btnAgregarInversionista, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                        .addGap(87, 87, 87)
-                                        .addComponent(btnAddInversion)))
-                                .addGap(64, 64, 64))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(34, 34, 34)))
-                        .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnSalvarCredito)
-                                .addGap(117, 117, 117))
-                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtMontoDevolucionCredito, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel26, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel25, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER, false)
-                                    .addComponent(txtTasadeInteres, javax.swing.GroupLayout.DEFAULT_SIZE, 140, Short.MAX_VALUE)
-                                    .addComponent(txtMontototalCredito, javax.swing.GroupLayout.DEFAULT_SIZE, 140, Short.MAX_VALUE)
-                                    .addComponent(txtCredito, javax.swing.GroupLayout.DEFAULT_SIZE, 140, Short.MAX_VALUE)
-                                    .addComponent(dtFechaInicio, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jSpinner1))
-                                .addGap(10, 10, 10)))
-                        .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(20, 20, 20)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
-                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel23, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jLabel24, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(txtMontoPrestamo)
-                                            .addComponent(cmxPrestamistas, 0, 140, Short.MAX_VALUE))))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btnAgregarPrestamista, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(11, 11, 11))
-                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                .addGap(110, 110, 110)
-                                .addComponent(jLabel22))
-                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                .addComponent(txtMontoDevolucionCredito1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtMontoDevolucionPrestamo, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                                .addGap(121, 121, 121)
-                                .addComponent(btnSalvarPrestamo))))
-                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                        .addGap(403, 403, 403)
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                        .addGap(501, 501, 501)
-                        .addComponent(jLabel19)))
-                .addContainerGap(85, Short.MAX_VALUE))
-        );
-
-        pnlCreditoLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtCredito, txtMontototalCredito, txtTasadeInteres});
-
-        pnlCreditoLayout.setVerticalGroup(
-            pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                .addGap(37, 37, 37)
-                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(jLabel15)
-                    .addComponent(jLabel19)
-                    .addComponent(jLabel22))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel12)
-                            .addComponent(cmbInversionista, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnAgregarInversionista))
-                        .addGap(18, 18, 18)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel13)
-                            .addComponent(txtMontoInversiones, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                            .addComponent(txtMontoDevolucionInversionistas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel14)))
-                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel23)
-                            .addComponent(cmxPrestamistas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnAgregarPrestamista))
-                        .addGap(18, 18, 18)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel24)
-                            .addComponent(txtMontoPrestamo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtMontoDevolucionCredito1)
-                            .addComponent(txtMontoDevolucionPrestamo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(pnlCreditoLayout.createSequentialGroup()
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel16)
-                            .addComponent(txtCredito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(12, 12, 12)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel17)
-                            .addComponent(txtMontototalCredito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(12, 12, 12)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel25)
-                            .addComponent(txtTasadeInteres, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(8, 8, 8)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel26)
-                            .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtMontoDevolucionCredito)
-                            .addComponent(dtFechaInicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(10, 10, 10)
-                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(btnSalvarPrestamo)
-                    .addComponent(btnSalvarCredito)
-                    .addComponent(btnAddInversion))
-                .addGap(33, 33, 33)
-                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(pnlCreditoLayout.createSequentialGroup()
-                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 510, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 528, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 133, Short.MAX_VALUE))
-        );
-
-        pnlCreditoLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {txtCredito, txtMontototalCredito, txtTasadeInteres});
 
         pnlCatalogo.setBackground(new java.awt.Color(47, 51, 66));
 
@@ -1341,29 +902,29 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
                         .addComponent(btnEgresos))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCatalogoLayout.createSequentialGroup()
                         .addGap(3, 3, 3)
-                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 335, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGroup(pnlCatalogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 421, Short.MAX_VALUE)))
+                .addGroup(pnlCatalogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlCatalogoLayout.createSequentialGroup()
                         .addGap(3, 3, 3)
-                        .addComponent(jSeparator4, javax.swing.GroupLayout.DEFAULT_SIZE, 1, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 320, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(pnlCatalogoLayout.createSequentialGroup()
+                        .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 412, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCatalogoLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel20)
                         .addGap(40, 40, 40)
                         .addComponent(btnIngresos)
-                        .addGap(46, 46, 46)))
-                .addGroup(pnlCatalogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGap(89, 89, 89)))
+                .addGroup(pnlCatalogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlCatalogoLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, pnlCatalogoLayout.createSequentialGroup()
-                        .addGap(31, 31, 31)
+                        .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 370, Short.MAX_VALUE)
+                        .addGap(3, 3, 3))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCatalogoLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel21)
                         .addGap(27, 27, 27)
-                        .addComponent(btnCuentas)))
-                .addGap(3, 3, 3)
+                        .addComponent(btnCuentas)
+                        .addGap(74, 74, 74)))
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         pnlCatalogoLayout.setVerticalGroup(
@@ -1371,7 +932,7 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
             .addGroup(pnlCatalogoLayout.createSequentialGroup()
                 .addGap(175, 175, 175)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 83, Short.MAX_VALUE))
             .addGroup(pnlCatalogoLayout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1393,10 +954,479 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
                 .addGap(20, 20, 20))
         );
 
+        pnlCredito.setBackground(new java.awt.Color(47, 51, 66));
+        pnlCredito.setPreferredSize(new java.awt.Dimension(1129, 708));
+
+        jLabel12.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel12.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel12.setText("Inversionista:");
+
+        jLabel13.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel13.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel13.setText("Monto de inv:");
+
+        jLabel14.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel14.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel14.setText("Monto de dev:");
+
+        cmbInversionista.setEditable(true);
+        cmbInversionista.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        cmbInversionista.setRequestFocusEnabled(true);
+        cmbInversionista.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbInversionistaActionPerformed(evt);
+            }
+        });
+
+        txtMontoInversiones.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        txtMontoDevolucionInversionistas.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        btnAgregarInversionista.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        btnAgregarInversionista.setText("Añadir");
+        btnAgregarInversionista.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAgregarInversionistaActionPerformed(evt);
+            }
+        });
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones"));
+        jPanel4.setForeground(new java.awt.Color(127, 127, 127));
+        jPanel4.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+
+        buttonGroup1.add(rbPorcentajeInversion);
+        rbPorcentajeInversion.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        rbPorcentajeInversion.setForeground(new java.awt.Color(255, 255, 255));
+        rbPorcentajeInversion.setText("Porcentaje(%)");
+
+        buttonGroup1.add(rbMontoInversion);
+        rbMontoInversion.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        rbMontoInversion.setForeground(new java.awt.Color(255, 255, 255));
+        rbMontoInversion.setText("Monto($)");
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(rbPorcentajeInversion)
+                .addGap(29, 29, 29)
+                .addComponent(rbMontoInversion))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(rbPorcentajeInversion)
+                .addComponent(rbMontoInversion))
+        );
+
+        btnAddInversion.setBackground(new java.awt.Color(123, 163, 186));
+        btnAddInversion.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        btnAddInversion.setText("Agregar");
+
+        tableInversiones.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Inversionista", "Monto de inversiones", "Monto de devolución"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true, true, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        tableInversiones.setPreferredSize(new java.awt.Dimension(200, 200));
+        jScrollPane5.setViewportView(tableInversiones);
+        if (tableInversiones.getColumnModel().getColumnCount() > 0) {
+            tableInversiones.getColumnModel().getColumn(0).setMinWidth(0);
+            tableInversiones.getColumnModel().getColumn(0).setPreferredWidth(0);
+            tableInversiones.getColumnModel().getColumn(0).setMaxWidth(0);
+        }
+
+        jLabel15.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel15.setFont(new java.awt.Font("Malgun Gothic", 1, 24)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setText("Inversionistas");
+
+        jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        btnSalvarCredito.setBackground(new java.awt.Color(123, 163, 186));
+        btnSalvarCredito.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        btnSalvarCredito.setText("Agregar");
+
+        txtMontoDevolucionCredito.setBackground(new java.awt.Color(187, 187, 187));
+        txtMontoDevolucionCredito.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        txtMontoDevolucionCredito.setForeground(new java.awt.Color(255, 255, 255));
+        txtMontoDevolucionCredito.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        txtMontoDevolucionCredito.setText("Fecha de inicio:");
+
+        jLabel19.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel19.setFont(new java.awt.Font("Malgun Gothic", 1, 24)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setText("Créditos");
+
+        jLabel17.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel17.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel17.setText("Monto total:");
+
+        tableCredito.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Inversionista", "Monto de inversiones", "Monto de devolución"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true, true, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        tableCredito.setPreferredSize(new java.awt.Dimension(200, 200));
+        jScrollPane6.setViewportView(tableCredito);
+        if (tableCredito.getColumnModel().getColumnCount() > 0) {
+            tableCredito.getColumnModel().getColumn(0).setMinWidth(0);
+            tableCredito.getColumnModel().getColumn(0).setPreferredWidth(0);
+            tableCredito.getColumnModel().getColumn(0).setMaxWidth(0);
+        }
+
+        txtCredito.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        txtCredito.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCreditoActionPerformed(evt);
+            }
+        });
+
+        jLabel16.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel16.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel16.setText("Crédito:");
+
+        txtMontototalCredito.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        jLabel22.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel22.setFont(new java.awt.Font("Malgun Gothic", 1, 24)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel22.setText("Prestamista");
+
+        jLabel23.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel23.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel23.setText("Prestamista:");
+
+        jLabel24.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel24.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel24.setText("Monto de préstamo:");
+
+        txtMontoPrestamo.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones"));
+        jPanel8.setForeground(new java.awt.Color(127, 127, 127));
+
+        buttonGroup2.add(rbPorcentajePrestamo);
+        rbPorcentajePrestamo.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        rbPorcentajePrestamo.setForeground(new java.awt.Color(255, 255, 255));
+        rbPorcentajePrestamo.setText("Porcentaje(%)");
+
+        buttonGroup2.add(rbMontoPrestamo);
+        rbMontoPrestamo.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        rbMontoPrestamo.setForeground(new java.awt.Color(255, 255, 255));
+        rbMontoPrestamo.setText("Monto($)");
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(rbPorcentajePrestamo)
+                .addGap(29, 29, 29)
+                .addComponent(rbMontoPrestamo))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(rbPorcentajePrestamo)
+                .addComponent(rbMontoPrestamo))
+        );
+
+        txtMontoDevolucionCredito1.setBackground(new java.awt.Color(187, 187, 187));
+        txtMontoDevolucionCredito1.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        txtMontoDevolucionCredito1.setForeground(new java.awt.Color(255, 255, 255));
+        txtMontoDevolucionCredito1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        txtMontoDevolucionCredito1.setText("Monto de dev:");
+
+        txtMontoDevolucionPrestamo.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        btnSalvarPrestamo.setBackground(new java.awt.Color(123, 163, 186));
+        btnSalvarPrestamo.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        btnSalvarPrestamo.setText("Agregar");
+
+        tablePrestamistas.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Prestamista", "Monto de préstamo", "Monto de devolución"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true, true, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        tablePrestamistas.setPreferredSize(new java.awt.Dimension(200, 200));
+        jScrollPane7.setViewportView(tablePrestamistas);
+        if (tablePrestamistas.getColumnModel().getColumnCount() > 0) {
+            tablePrestamistas.getColumnModel().getColumn(0).setMinWidth(0);
+            tablePrestamistas.getColumnModel().getColumn(0).setPreferredWidth(0);
+            tablePrestamistas.getColumnModel().getColumn(0).setMaxWidth(0);
+        }
+
+        jSeparator2.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        cmxPrestamistas.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        cmxPrestamistas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " " }));
+        cmxPrestamistas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmxPrestamistasActionPerformed(evt);
+            }
+        });
+
+        btnAgregarPrestamista.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        btnAgregarPrestamista.setText("Añadir");
+        btnAgregarPrestamista.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAgregarPrestamistaActionPerformed(evt);
+            }
+        });
+
+        jLabel25.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel25.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel25.setText("tasa de interés:");
+
+        txtTasadeInteres.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        jLabel26.setBackground(new java.awt.Color(187, 187, 187));
+        jLabel26.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel26.setText("Meses de financ:");
+
+        dtFechaInicio.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        jSpinner1.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+
+        javax.swing.GroupLayout pnlCreditoLayout = new javax.swing.GroupLayout(pnlCredito);
+        pnlCredito.setLayout(pnlCreditoLayout);
+        pnlCreditoLayout.setHorizontalGroup(
+            pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, 0)
+                                .addComponent(btnAgregarInversionista, 0, 0, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(15, 15, 15)
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtMontoInversiones, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(cmbInversionista, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtMontoDevolucionInversionistas, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addGap(146, 146, 146)
+                                .addComponent(btnAddInversion))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(54, 54, 54)))
+                        .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtMontoDevolucionCredito, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(15, 15, 15)
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtTasadeInteres, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(dtFechaInicio, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtMontototalCredito, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtCredito, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addGap(151, 151, 151)
+                                .addComponent(btnSalvarCredito))))
+                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                        .addGap(402, 402, 402)
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(1, 1, 1)
+                .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
+                        .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(70, 70, 70))
+                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtMontoDevolucionCredito1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(15, 15, 15)
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(txtMontoPrestamo, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
+                                            .addComponent(cmxPrestamistas, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(btnAgregarPrestamista, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(txtMontoDevolucionPrestamo, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnSalvarPrestamo)))
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(29, Short.MAX_VALUE))))
+        );
+
+        pnlCreditoLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtCredito, txtMontototalCredito, txtTasadeInteres});
+
+        pnlCreditoLayout.setVerticalGroup(
+            pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlCreditoLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                        .addGap(334, 334, 334)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(21, Short.MAX_VALUE))
+                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(jLabel12)
+                                            .addComponent(cmbInversionista, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(jLabel13)
+                                            .addComponent(txtMontoInversiones, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(15, 15, 15)
+                                        .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(12, 12, 12)
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                                            .addComponent(txtMontoDevolucionInversionistas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel14)))
+                                    .addComponent(btnAgregarInversionista)
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(btnAgregarPrestamista)
+                                            .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                .addComponent(jLabel23)
+                                                .addComponent(cmxPrestamistas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(jLabel24)
+                                            .addComponent(txtMontoPrestamo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(15, 15, 15)
+                                        .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(15, 15, 15)
+                                        .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(txtMontoDevolucionCredito1)
+                                            .addComponent(txtMontoDevolucionPrestamo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addComponent(jLabel16)
+                                        .addGap(16, 16, 16)
+                                        .addComponent(jLabel17)
+                                        .addGap(16, 16, 16)
+                                        .addComponent(jLabel25)
+                                        .addGap(12, 12, 12)
+                                        .addComponent(jLabel26)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(txtMontoDevolucionCredito))
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addComponent(txtCredito, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(12, 12, 12)
+                                        .addComponent(txtMontototalCredito, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(12, 12, 12)
+                                        .addComponent(txtTasadeInteres, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(8, 8, 8)
+                                        .addComponent(jSpinner1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(dtFechaInicio, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(18, 18, 18)
+                                .addGroup(pnlCreditoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnAddInversion)
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addComponent(btnSalvarPrestamo)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(pnlCreditoLayout.createSequentialGroup()
+                                        .addComponent(btnSalvarCredito)
+                                        .addGap(11, 11, 11)
+                                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 385, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jSeparator1))
+                        .addContainerGap())))
+        );
+
+        pnlCreditoLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {txtCredito, txtMontototalCredito, txtTasadeInteres});
+
         jLayeredPane1.setLayer(pnlInfo, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane1.setLayer(pnlSembrado, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane1.setLayer(pnlCredito, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane1.setLayer(pnlCatalogo, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        jLayeredPane1.setLayer(pnlCredito, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout jLayeredPane1Layout = new javax.swing.GroupLayout(jLayeredPane1);
         jLayeredPane1.setLayout(jLayeredPane1Layout);
@@ -1404,37 +1434,31 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
             jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jLayeredPane1Layout.createSequentialGroup()
                 .addComponent(pnlInfo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(81, 81, 81))
+                .addGap(5, 5, 5))
             .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                    .addComponent(pnlSembrado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGap(37, 37, 37)))
-            .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                    .addComponent(pnlCredito, javax.swing.GroupLayout.DEFAULT_SIZE, 1158, Short.MAX_VALUE)
-                    .addGap(8, 8, 8)))
+                    .addComponent(pnlSembrado, javax.swing.GroupLayout.DEFAULT_SIZE, 1223, Short.MAX_VALUE)
+                    .addContainerGap()))
             .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jLayeredPane1Layout.createSequentialGroup()
                     .addComponent(pnlCatalogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGap(205, 205, 205)))
+                    .addContainerGap()))
+            .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jLayeredPane1Layout.createSequentialGroup()
+                    .addComponent(pnlCredito, javax.swing.GroupLayout.DEFAULT_SIZE, 1223, Short.MAX_VALUE)
+                    .addContainerGap()))
         );
         jLayeredPane1Layout.setVerticalGroup(
             jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                .addComponent(pnlInfo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(95, 95, 95))
+            .addComponent(pnlInfo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                    .addComponent(pnlSembrado, javax.swing.GroupLayout.PREFERRED_SIZE, 662, Short.MAX_VALUE)
-                    .addGap(79, 79, 79)))
+                    .addComponent(pnlSembrado, javax.swing.GroupLayout.DEFAULT_SIZE, 731, Short.MAX_VALUE)
+                    .addContainerGap()))
             .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                    .addComponent(pnlCredito, javax.swing.GroupLayout.DEFAULT_SIZE, 661, Short.MAX_VALUE)
-                    .addGap(80, 80, 80)))
+                .addComponent(pnlCatalogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                    .addComponent(pnlCatalogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGap(81, 81, 81)))
+                .addComponent(pnlCredito, javax.swing.GroupLayout.DEFAULT_SIZE, 743, Short.MAX_VALUE))
         );
 
         jPanel2.setBackground(new java.awt.Color(47, 51, 66));
@@ -1473,7 +1497,7 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         });
 
         btnGuardar.setBackground(new java.awt.Color(123, 163, 186));
-        btnGuardar.setFont(new java.awt.Font("Malgun Gothic", 1, 14)); // NOI18N
+        btnGuardar.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnGuardar.setFocusPainted(false);
@@ -1496,17 +1520,19 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnSembrado, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnInfoGeneral, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCredito, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCatalogo, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnCredito, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(btnSembrado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnInfoGeneral, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnCatalogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
+                .addGap(15, 15, 15)
                 .addComponent(btnInfoGeneral, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(btnSembrado, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1514,7 +1540,7 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
                 .addComponent(btnCredito, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(btnCatalogo, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 283, Short.MAX_VALUE)
                 .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15))
         );
@@ -1526,19 +1552,17 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(5, 5, 5)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLayeredPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(5, 5, 5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLayeredPane1)
+                .addGap(8, 8, 8))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(5, 5, 5)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(9, 9, 9))
-                    .addComponent(jLayeredPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 668, Short.MAX_VALUE))
+                    .addComponent(jLayeredPane1)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(5, 5, 5))
         );
 
@@ -1547,16 +1571,14 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(1, 1, 1)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -1694,6 +1716,10 @@ cmbProjectMnaguer.setModel(new DefaultComboBoxModel(vectorManagers));
         menuSembrado.show(tableSembrado, evt.getX(), evt.getY());
         }    
     }//GEN-LAST:event_tableSembradoMouseReleased
+
+    private void txtCreditoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCreditoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCreditoActionPerformed
 
     /**
      * @param args the command line arguments

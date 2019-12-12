@@ -32,5 +32,6 @@ public final class Save {
      public static double ProviderSaldo;
      public static User TemporalUser;
      public static int reg_id;
+     public static int reporte;
      
 }
